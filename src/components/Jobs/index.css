@@ -1,0 +1,126 @@
+.bg-container {
+  height: 90vh;
+  overflow-y: auto;
+  background-color: black;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.profile-success-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.profile-fail-load-container {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.retry-btn {
+  height: 50px;
+  width: 140px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .bg-container {
+    padding: 10px;
+  }
+  .profile-filter-container {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    display: flex;
+  }
+  .profile-filter-container {
+    height: 100%;
+    width: 25%;
+    padding: 20px 50px;
+  }
+  .jobs-container {
+    height: 100%;
+    width: 75%;
+    padding: 30px;
+    overflow-y: scroll;
+  }
+}
+
+.emp-type-title {
+  font-size: 20px;
+}
+.input {
+  margin-right: 10px;
+}
+.profile-name {
+  color: blue;
+  font-weight: bold;
+}
+.bio {
+  color: darkmagenta;
+}
+.search-container {
+  height: 45px;
+  width: 55%;
+  border: 1px solid lightskyblue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  height: 100%;
+  width: 90%;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  color: lightskyblue;
+  padding-left: 10px;
+}
+.search-btn {
+  height: 50%;
+  width: 10%;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.search-icon {
+  height: 100%;
+  width: 100%;
+  color: lightskyblue;
+}
+
+@media screen and (max-width: 767px) {
+  .search-container {
+    width: 100%;
+  }
+}
+.no-jobs-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.job-card-container {
+  padding: 0px;
+}
